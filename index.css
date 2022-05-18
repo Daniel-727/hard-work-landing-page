@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
 
 /*code for smooth scrolling and hiding the scrollbar for multiple browsers*/
 
@@ -34,7 +37,7 @@ html{
     background-size: cover;
     background-repeat: no-repeat;
     width:100%;
-    height: 90vh;
+    height: 89.4vh; /*for now, making it so we don't have to scroll on the landing page*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -45,6 +48,10 @@ html{
     display: flex;
     flex-direction: column;
     color: white;
+    
+}
+
+.landing-page-content h1{
     text-align: center;
 }
 
